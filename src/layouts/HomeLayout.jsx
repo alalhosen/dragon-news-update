@@ -8,7 +8,7 @@ const HomeLayout = () => {
         <div>
             <header>
                 <Header></Header>
-                <section>
+                <section className='w-11/12 mx-auto my-3'>
                     <LatestNews>  </LatestNews>
                 </section>
             </header>
