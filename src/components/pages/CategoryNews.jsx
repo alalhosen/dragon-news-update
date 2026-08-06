@@ -32,10 +32,9 @@ const CategoryNews = () => {
         Found
       </h2>
       <div className="grid grid-cols-1 gap-5">
-        {categoryNews.map((news)=>(
-          <NewsCard></NewsCard>
+        {categoryNews.map((news) => (
+          <NewsCard key={news.id} news={news}></NewsCard>
         ))}
-
       </div>
     </div>
   );
