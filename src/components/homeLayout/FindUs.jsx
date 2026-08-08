@@ -1,11 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const FindUs = () => {
-    return (
-        <div>
-            <h2 className='text-xl font-bold'>Find Us On</h2>
+  return (
+    <div>
+      <h2 className="text-xl font-bold">Find Us On</h2>
+      <div>
+        <div className="join join-vertical w-full">
+          <button className="btn bg-base-100 justify-start join-item">Facebook</button>
+          <button className="btn bg-base-100 justify-start join-item">Twitter</button>
+          <button className="btn bg-base-100 justify-start join-item">Instagram</button>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default FindUs;

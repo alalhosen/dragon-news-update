@@ -4,7 +4,7 @@ import FindUs from './FindUs';
 
 const RightAside = () => {
     return (
-        <div>
+        <div className='space-y-8'>
             RightAside
             <SocialLogin></SocialLogin>
             <FindUs></FindUs>
